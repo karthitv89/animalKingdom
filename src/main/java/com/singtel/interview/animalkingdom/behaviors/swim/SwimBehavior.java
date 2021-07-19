@@ -1,5 +1,7 @@
 package com.singtel.interview.animalkingdom.behaviors.swim;
 
 public interface SwimBehavior {
-    void swim();
+    default void swim() {
+        System.out.println("I can swim");
+    }
 }

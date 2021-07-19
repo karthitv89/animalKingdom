@@ -1,6 +1,6 @@
 package com.singtel.interview.animalkingdom.animals.fishes;
 
-import com.singtel.interview.animalkingdom.animals.Animal;
+import com.singtel.interview.animalkingdom.animals.SwimmableAnimal;
 import com.singtel.interview.animalkingdom.behaviors.swim.SwimBehavior;
 import com.singtel.interview.animalkingdom.behaviors.swim.SwimSwim;
 import com.singtel.interview.animalkingdom.util.AnimalSize;
@@ -11,7 +11,7 @@ import lombok.Setter;
 @Setter
 @Getter
 @NoArgsConstructor
-public abstract class Fish extends Animal implements SwimBehavior {
+public abstract class Fish extends SwimmableAnimal {
     protected SwimBehavior swimmable;
     private String color;
     private AnimalSize size;
