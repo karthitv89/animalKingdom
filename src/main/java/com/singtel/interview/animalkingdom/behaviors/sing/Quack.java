@@ -1,8 +1,8 @@
 package com.singtel.interview.animalkingdom.behaviors.sing;
 
-public class Cluck implements SingingBehavior {
+public class Quack implements SingingBehavior {
     @Override
     public void sing() {
-        System.out.println("Cluck, Cluck");
+        System.out.println("Quack, quack");
     }
 }
