@@ -1,8 +1,8 @@
 package com.singtel.interview.animalkingdom.animals.insects;
 
 import com.singtel.interview.animalkingdom.animals.Animal;
-import com.singtel.interview.animalkingdom.behaviors.ButterflyState;
-import com.singtel.interview.animalkingdom.behaviors.State;
+import com.singtel.interview.animalkingdom.behaviors.state.ButterflyState;
+import com.singtel.interview.animalkingdom.behaviors.state.State;
 import com.singtel.interview.animalkingdom.behaviors.fly.FlyBehaviour;
 import com.singtel.interview.animalkingdom.behaviors.fly.FlyHigh;
 

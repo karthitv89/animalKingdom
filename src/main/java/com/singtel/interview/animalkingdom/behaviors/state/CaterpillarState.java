@@ -1,4 +1,4 @@
-package com.singtel.interview.animalkingdom.behaviors;
+package com.singtel.interview.animalkingdom.behaviors.state;
 
 public class CaterpillarState implements State {
     @Override
