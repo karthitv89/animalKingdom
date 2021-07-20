@@ -1,12 +1,8 @@
 package com.singtel.interview.animalkingdom;
 
 import com.singtel.interview.animalkingdom.animals.Animal;
-import com.singtel.interview.animalkingdom.animals.birds.Bird;
-import com.singtel.interview.animalkingdom.animals.birds.Chicken;
-import com.singtel.interview.animalkingdom.animals.birds.Duck;
-import com.singtel.interview.animalkingdom.animals.birds.Parrot;
+import com.singtel.interview.animalkingdom.animals.birds.*;
 import com.singtel.interview.animalkingdom.animals.fishes.ClownFish;
-import com.singtel.interview.animalkingdom.animals.fishes.Fish;
 import com.singtel.interview.animalkingdom.animals.fishes.Shark;
 import com.singtel.interview.animalkingdom.animals.insects.Butterfly;
 import com.singtel.interview.animalkingdom.animals.mammals.Dolphin;
@@ -17,15 +13,19 @@ public class Solution {
         Bird chicken = new Chicken();
         chicken.sing();
 
+        Bird rooster = new Rooster();
+        rooster.sing();
+
         Bird bird = new Duck();
         bird.sing();
-
 
         Butterfly butterfly = new Butterfly();
         butterfly.fly();
 
         butterfly.setState(new CaterpillarState());
         butterfly.fly();
+
+
 
     }
 

@@ -12,7 +12,6 @@ public abstract class Bird extends Animal implements SingingBehavior, FlyBehavio
         singable.sing();
     }
 
-    @Override
     public void fly() {
         flyable.fly();
     }
